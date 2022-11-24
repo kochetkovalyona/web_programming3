@@ -10,7 +10,7 @@ function createTable() {
         table.innerHTML = "<tr><th>id</th><th>Значение</th></tr>"
 
         container.appendChild(table);
-        document.getElementById("create-button").disabled = true;
+
         document.getElementById("add-row-button").disabled = false;
         document.getElementById("delete-row-button").disabled = false;
     } else
